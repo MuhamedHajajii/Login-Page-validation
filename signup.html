@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+    <!-- Start Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Start FontAwesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- Start BootStrap  -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Start Main Stylesheet  -->
+  <link rel="stylesheet" href="./css/mainStyle.css">
+</head>
+<body>
+  
+  <section class="vh-100   d-flex justify-content-center align-items-center">
+    <div class="container-md">
+      <div class="mx-auto w-75 boxShzdo p-5 custombg">
+        <h1 class="mx-auto">Smart Login System</h1>
+        <p id="dublicatedUserNAme" class="d-none text-danger">
+          <i class="fa-solid fa-ban"></i>
+          <i class="fa-solid fa-ban"></i>
+          <i class="fa-solid fa-ban"></i>
+          <i class="fa-solid fa-ban"></i>
+          Username already exists try another user name</p>
+          <p id="wrongUserName" class="d-none text-danger">
+            <i class="fa-solid fa-ban"></i>
+            Please enter a valid  user name. Minimum 8 characters</p>
+        <input class="my-3 form-control" id="userNameSignUp" type="text" placeholder="Enter your name">
+        <p id="dublicatedmail" class="d-none text-danger">
+          <i class="fa-solid fa-ban"></i>
+          <i class="fa-solid fa-ban"></i>
+          <i class="fa-solid fa-ban"></i>
+          <i class="fa-solid fa-ban"></i>
+          email already exists try another email</p>
+        <p id="wrongEmail" class="d-none text-danger">
+          <i class="fa-solid fa-ban"></i>
+          Please enter a valid email address. "example@email.com"</p>
+        <input class="my-3 form-control" id="userEmailSignINUp" type="email" placeholder="Enter your email">
+        <p id="wrongPassword" class="d-none text-danger">
+          <i class="fa-solid fa-ban"></i>
+          Minimum 8 characters or Numbers</p>
+        <input class="my-3 form-control" id="userPassWordSignINUp" type="password" placeholder="Enter your password">
+      <p id="validitionEmpity" class="d-none text-danger text-center">All inputs is required
+        <i class="fa-solid fa-circle-exclamation"></i>
+      </p>
+      <p id="successMessage" class="d-none text-success text-center">
+        success
+        <i class="fa-regular fa-circle-check"></i>
+      </p>
+      <button id="signUpBtn" class="my-3 btn btn-outline-info w-100">Sign Up</button>
+      <p class="signUpLink">
+        You have an account? 
+        <span>
+          <span id="successAfter" class="d-none" >Great You Now Have Account Lets SignIn</span>
+          <a class="signUpLink" href="./index.html">Signin</a></span>
+      </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- start BootStrap js  -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Start Main js sheet -->
+  <!-- <script src="./js/SignUp.js"></script> -->
+  <script src="./js/signupTwo.js"></script>
+</body>
+</html>

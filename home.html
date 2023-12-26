@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+    <!-- Start Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Start FontAwesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- Start BootStrap  -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Start Main Stylesheet  -->
+  <link rel="stylesheet" href="./css/mainStyle.css">
+</head>
+<body class="welcome">
+  <span id="splash-overlay" class="splash"></span>
+  <span id="welcome" class="z-depth-4 d-flex justify-content-center align-items-center h1"><i class="fa-solid fa-ghost"></i></span>
+
+
+  <nav class="navbar fixed-top navbar-expand-lg bg-transparent shadow-lg">
+    <div class="container">
+      <a class="text-white navbar-brand" href="#">SMART LOGIN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <button id="btnLogOut" class="btn btn-outline-warning text-light w-100">Logout</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+      <div class="welcomeText text-center custombg rounded-5 position-relative">
+        <div class="backanime overflow-hidden">
+          <div class="m-0 w-300 text-center welcomeTextAnim pt-5">Welcome <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            <p class="m-0 w-300 text-uppercase userName text-center text-light" id="welcomeText" >  </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+<style> 
+
+</style>
+
+  <!-- start BootStrap js  -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Start Main js sheet -->
+  <script src="./js/homePage.js"></script>
+</body>
+</html>

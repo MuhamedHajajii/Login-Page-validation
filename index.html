@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Start Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Start FontAwesome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- Start BootStrap  -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Start Main Stylesheet  -->
+  <link rel="stylesheet" href="./css/mainStyle.css">
+</head>
+<body>
+  
+<section class="vh-100   d-flex justify-content-center align-items-center">
+  <div class="container">
+    <div class="mx-auto custombg w-75 boxShzdo p-5 ">
+      <h1 class="mx-auto">Smart Login System</h1>
+    <input class="my-3 form-control" id="userEmail" type="email" placeholder="Enter your email">
+    <input class="my-3 form-control" id="userPassWord" type="password" placeholder="Enter your password">
+    <p id="validitionEmpity" class="d-none text-danger text-center">All inputs is required</p>
+    <p id="validitionincorrect" class="d-none text-danger text-center">incorrect email or password</p>
+    <button id="btnLogin" class="my-3 btn btn-outline-info w-100">Login</button>
+    <p class="signUpLink">
+      Don't have an account? 
+      <a class="signUpLink" href="./signup.html">Sign Up</a>
+    </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- start BootStrap js  -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Start Main js sheet -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
